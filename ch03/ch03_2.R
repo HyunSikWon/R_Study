@@ -1,0 +1,11 @@
+score <- c(80, 70, 69, 30, 65, 88, 70, 90, 100, 99)
+sumScore <- sum(score)
+avgScore <- mean(score)
+maxScore <- max(score)
+minScore <- min(score)
+stdNum <- length(score)
+midScore <- median(score)
+
+cat("total:", sumScore, "students:", stdNum, "\n")
+cat("avg:", avgScore, "median:", midScore, "\n")
+cat("max:", maxScore, "min:", minScore)
